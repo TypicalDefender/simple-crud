@@ -1,0 +1,14 @@
+{
+    "development": {
+        "MONGO_URI": "mongodb://localhost/vidly",
+        "MONGO_OPTIONS": { "db": { "safe": true } }
+    },
+    "production": {
+        "MONGO_URI": "mongodb://localhost/productionDB",
+        "MONGO_OPTIONS": { "db": { "safe": true } }
+    },
+    "local": {
+        "MONGO_URI": "mongodb://localhost/localDB",
+        "MONGO_OPTIONS": { "db": { "safe": true } }
+    }
+}
