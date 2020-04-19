@@ -4,7 +4,7 @@ Type the following to install the node modules:
 
 > npm install
 
-Then replace put your own mongodb url in the index.js file
+Then replace put your own mongodb url in the config file if you're using mongo atlas or mlabs
 
 > give the environment between any of those[local, production, development(default)]
 
